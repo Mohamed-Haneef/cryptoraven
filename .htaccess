@@ -1,0 +1,17 @@
+# Enable mod_rewrite
+RewriteEngine On
+
+# Redirect /ctf to /ctf.php
+RewriteRule ^ctf$ /ctf.php [L]
+
+# Redirect /programming to /programming.php
+RewriteRule ^programming$ /programming.php [L]
+
+# Redirect /tools to /tools.php
+RewriteRule ^tools$ /tools.php [L]
+
+# Disable directory listing (prevents directory browsing)
+Options -Indexes
+
+# Return 403 Forbidden if /ctf is directly accessed (prevents direct access to /ctf.php)
+RewriteRule ^ctf$ - [F,L]
