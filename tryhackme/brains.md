@@ -1,5 +1,5 @@
 ---
-description: The city forgot to close its gate.
+description: The city forgot to close its gate. [challenge level - easy]
 ---
 
 # Brains

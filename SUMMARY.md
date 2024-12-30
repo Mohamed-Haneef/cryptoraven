@@ -5,3 +5,4 @@
 ## Tryhackme
 
 * [Brains](tryhackme/brains.md)
+* [Disgruntled](tryhackme/disgruntled.md)
